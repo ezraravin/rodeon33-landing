@@ -1,0 +1,24 @@
+---
+// src/pages/setup/mac/index.astro
+import Copybox from "../components/Copybox.svelte";
+
+// Define props
+const title = "Mac Setup Instructions";
+const subtitle = "Run the following command to set up your Mac:";
+const command = '/bin/bash -c "$(curl -fsSL https://rodeon33.com/setup/mac.sh)"';
+---
+
+<html>
+  <head>
+        <title>{title}</title>
+<!-- Add Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body class="bg-gray-100 p-8 mt-48 h-svh w-svw flex justify-center items-start">
+    <!-- Pass all props to the Copybox component -->
+    <Copybox {title} {subtitle} {command} client:load/>
+  </body>
+</html>
