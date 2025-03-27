@@ -1,4 +1,4 @@
 /call                   https://talk.brave.com                                                                          302
 /classroom              https://app.gather.town/invite?token=D9jxpKaURqSL27Lx5jxw                                       302
-/setup/mac.sh           https://gitlab.com/ezraravinmateus/dotfiles/-/raw/HEAD/.scripts/setup_mac.sh                    302
-/setup/linux.sh         https://gitlab.com/ezraravinmateus/dotfiles/-/raw/HEAD/.scripts/endeavour/base_install.sh       302
+/setup/mac.sh           https://gitlab.com/ezraravinmateus/dotfiles/-/raw/HEAD/.scripts/macOS.sh                        302
+/setup/linux.sh         https://gitlab.com/ezraravinmateus/dotfiles/-/raw/HEAD/.scripts/endeavourOS.sh                  302
