@@ -3,15 +3,19 @@
 import Copybox from "../components/Copybox.svelte";
 // Define props
 const OS = "EndeavourOS (Linux)"
-const title = `${OS} Setup Instructions`;
-const subtitle = `Run the following command to set up your ${OS}:`;
-const command = `/bin/bash -c "$(curl -fsSL https://rodeon33.com/setup/linux/endeavour/install.sh"`;
+const titleInstall = `${OS} Setup Instructions`;
+const subtitleInstall = `Run the following command to set up your ${OS}:`;
+const commandInstall = `/bin/bash -c "$(curl -fsSL https://rodeon33.com/setup/linux/endeavour/install.sh"`;
+
+const titleMobile = `Flutter Setup Instructions`;
+const subtitleMobile = `Run the following command to set up your ${OS} with Flutter:`;
+const commandMobile = `/bin/bash -c "$(curl -fsSL https://rodeon33.com/setup/linux/endeavour/mobile.sh"`;
+
 ---
 
 <html>
   <head>
-        <title>{title}</title>
-<!-- Add Font Awesome CDN -->
+    <title>{titleInstall}</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -19,6 +23,7 @@ const command = `/bin/bash -c "$(curl -fsSL https://rodeon33.com/setup/linux/end
   </head>
   <body class="bg-gray-100 p-8 mt-48 h-svh w-svw flex justify-center items-start">
     <!-- Pass all props to the Copybox component -->
-    <Copybox {title} {subtitle} {command} client:load/>
+    <Copybox {titleInstall} {subtitleInstall} {commandInstall} client:load/>
+    <Copybox {titleMobile} {subtitleMobile} {commandMobile} client:load/>
   </body>
 </html>
