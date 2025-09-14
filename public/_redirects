@@ -1,9 +1,9 @@
 /call                                           https://talk.brave.com                                                                              302
 /talk                                           https://talk.brave.com                                                                              302
 /classroom                                      https://app.gather.town/invite?token=D9jxpKaURqSL27Lx5jxw                                           302
-/setup/endeavour/install.sh                     https://gitlab.com/ezraravinmateus/dotfiles/-/raw/HEAD/.scripts/endeavour/install.sh                302
-/setup/endeavour/mobile.sh                      https://gitlab.com/ezraravinmateus/dotfiles/-/raw/HEAD/.scripts/endeavour/mobile.sh                 302
-/setup/debian/install.sh                        https://gitlab.com/ezraravinmateus/dotfiles/-/raw/HEAD/.scripts/debian/install.sh                   302
-/setup/debian/ai.sh                             https://gitlab.com/ezraravinmateus/dotfiles/-/raw/HEAD/.scripts/debian/ai.sh                        302
-/setup/debian/server.sh                         https://gitlab.com/ezraravinmateus/dotfiles/-/raw/HEAD/.scripts/debian/server.sh                    302
-/setup/mac/install.sh                           https://gitlab.com/ezraravinmateus/dotfiles/-/raw/HEAD/.scripts/mac/install.sh                    302
+/setup/endeavour/install.sh                     https://github.com/ezraravin/dotfiles/-/raw/HEAD/.scripts/endeavour/install.sh                302
+/setup/endeavour/mobile.sh                      https://github.com/ezraravin/dotfiles/-/raw/HEAD/.scripts/endeavour/mobile.sh                 302
+/setup/debian/install.sh                        https://github.com/ezraravin/dotfiles/-/raw/HEAD/.scripts/debian/install.sh                   302
+/setup/debian/ai.sh                             https://github.com/ezraravin/dotfiles/-/raw/HEAD/.scripts/debian/ai.sh                        302
+/setup/debian/server.sh                         https://github.com/ezraravin/dotfiles/-/raw/HEAD/.scripts/debian/server.sh                    302
+/setup/mac/install.sh                           https://github.com/ezraravin/dotfiles/-/raw/HEAD/.scripts/mac/install.sh                    302
