@@ -1,8 +1,7 @@
 /call                                           https://talk.brave.com                                                                              302
 /talk                                           https://talk.brave.com                                                                              302
 /classroom                                      https://app.gather.town/invite?token=D9jxpKaURqSL27Lx5jxw                                           302
-/setup/endeavour/install.sh                     https://raw.githubusercontent.com/ezraravin/dotfiles/refs/heads/main/.scripts/endeavour/install.sh                302
-/setup/endeavour/mobile.sh                      https://raw.githubusercontent.com/ezraravin/dotfiles/refs/heads/main/.scripts/endeavour/mobile.sh                 302
+/setup/endeavour/install.sh                     https://raw.githubusercontent.com/ezraravin/limo/refs/heads/main/endeavour/install.sh                302
 /setup/debian/install.sh                        https://raw.githubusercontent.com/ezraravin/dotfiles/refs/heads/main/.scripts/debian/install.sh                   302
 /setup/debian/ai.sh                             https://raw.githubusercontent.com/ezraravin/dotfiles/refs/heads/main/.scripts/debian/ai.sh                        302
 /setup/debian/server.sh                         https://raw.githubusercontent.com/ezraravin/dotfiles/refs/heads/main/.scripts/debian/server.sh                    302
