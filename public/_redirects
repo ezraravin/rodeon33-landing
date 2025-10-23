@@ -1,9 +1,11 @@
-/call                                           https://talk.brave.com                                                                              302
-/talk                                           https://talk.brave.com                                                                              302
-/classroom                                      https://app.gather.town/invite?token=D9jxpKaURqSL27Lx5jxw                                           302
-/eos-install.sh                     https://raw.githubusercontent.com/ezraravin/limo/refs/heads/main/endeavour/install.sh                302
-/setup/debian/install.sh                        https://raw.githubusercontent.com/ezraravin/limo/refs/heads/main/debian/install.sh                   302
-/setup/debian/ai.sh                             https://raw.githubusercontent.com/ezraravin/limo/refs/heads/main/debian/ai.sh                        302
-/setup/debian/server.sh                         https://raw.githubusercontent.com/ezraravin/limo/refs/heads/main/debian/server.sh                    302
-/setup/mac/install.sh                           https://raw.githubusercontent.com/ezraravin/limo/refs/heads/main/mac/install.sh                    302
+/call                                           https://talk.brave.com                                                                                  302
+/talk                                           https://talk.brave.com                                                                                  302
+/classroom                                      https://app.gather.town/invite?token=D9jxpKaURqSL27Lx5jxw                                               302
+/eos-install.sh                                 https://raw.githubusercontent.com/ezraravin/limo/refs/heads/main/endeavour/install.sh                   302
+/setup/debian/install.sh                        https://raw.githubusercontent.com/ezraravin/limo/refs/heads/main/debian/install.sh                      302
+/setup/debian/ai.sh                             https://raw.githubusercontent.com/ezraravin/limo/refs/heads/main/debian/ai.sh                           302
+/setup/debian/server.sh                         https://raw.githubusercontent.com/ezraravin/limo/refs/heads/main/debian/server.sh                       302
+/setup/mac/install.sh                           https://raw.githubusercontent.com/ezraravin/limo/refs/heads/main/mac/install.sh                         302
+/recommendation-letter/format/sbi               https://docs.google.com/document/d/1O209GOqkdBSmzyep2pmJN0ToyHKyCDF7aJxHipmPHgg/edit?usp=sharing        302
+/recommendation-letter/format/ithb              https://docs.google.com/document/d/16-yQp00SV9JaFbtIaGUvD38kUlxs63ofsy4eurQYpr4/edit?usp=sharing        302
 
