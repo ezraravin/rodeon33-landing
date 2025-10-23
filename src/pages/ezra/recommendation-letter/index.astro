@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCX Document Viewer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen p-8">
+    <div class="max-w-md mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+        <!-- Header -->
+        <div class="bg-blue-600 text-white p-6">
+            <h1 class="text-2xl font-bold">Document Viewer</h1>
+            <p class="text-blue-100 mt-1">Access your DOCX file</p>
+        </div>
+        
+        <!-- Document Info -->
+        <div class="p-6">
+            <div class="mb-6">
+                <h2 class="text-lg font-semibold text-gray-800">Your_Document_Name.docx</h2>
+                <p class="text-gray-600 text-sm">Word Document • 245 KB</p>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="space-y-4">
+                <!-- Download Button -->
+                <a href="/path/to/your/document.docx" 
+                   download
+                   class="block w-full bg-green-600 hover:bg-green-700 text-white py-3 px-4 rounded text-center transition duration-200 font-medium">
+                    Download DOCX
+                </a>
+
+                <!-- View Online Button -->
+                <button onclick="openGoogleDocsViewer()"
+                   class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-4 rounded transition duration-200 font-medium">
+                    View Online
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openGoogleDocsViewer() {
+            const docUrl = encodeURIComponent(window.location.origin + '/path/to/your/document.docx');
+            window.open(`https://docs.google.com/gview?url=${docUrl}&embedded=true`, '_blank');
+        }
+    </script>
+</body>
+</html>
